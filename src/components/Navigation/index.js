@@ -3,7 +3,7 @@ import React from 'react';
 function Nav() {
     const projects = [
         {
-            name: "Kitty Translator",
+            name: "Just Kitten Around",
             description: "Kitty Translator was my first group project during my coding boot camp. My contributions included implementing Tailwind and setting up the GoogleRandomFontsAPI to randomize fonts with the jokes.",
             tools: "HTML, CSS, JavaScript, Tailwind"
         },
