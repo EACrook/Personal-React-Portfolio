@@ -4,7 +4,7 @@ import portrait from "../../assets/me-photo/me-photo.jpg";
 function About() {
     return (
         <section>
-            <h1 id="about">What I am about:</h1>
+            <h1 id="about">Getting Personal</h1>
             <img src={portrait} alt="portrait" />
             <div>
                 <p>
