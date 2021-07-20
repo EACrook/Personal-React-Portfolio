@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Nav from '../Navigation';
 
 
-function Header(projects, setCurrentProject, currentProject, contactSelected, setContactSelected) {
+function Header() {
 
     return (
         <header>

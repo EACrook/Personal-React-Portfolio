@@ -7,13 +7,13 @@ import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
-function App(currentProject) {
+function App() {
   
   return (
     <div>
       <Header></Header>
       <main>
-        <Projects currentCategory={currentProject}></Projects>
+        <Projects currentCategory></Projects>
         <About></About>
         <Resume></Resume>
         <ContactForm></ContactForm>
