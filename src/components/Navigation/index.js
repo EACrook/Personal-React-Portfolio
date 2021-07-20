@@ -3,10 +3,6 @@ import React from 'react';
 function Nav() {
 
 
-//    const handleClick = () => {
-//        console.log("click handled")
-//    }
-
     return (
         <div>
             <nav>
@@ -21,7 +17,7 @@ function Nav() {
                         <a href="#resume">Resume</a>
                     </li>
                     <li>
-                        <span>Contact</span>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>

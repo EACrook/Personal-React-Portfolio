@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from '../Navigation';
 
-function Header() {
+
+function Header(projects, setCurrentProject, currentProject, contactSelected, setContactSelected) {
+
     return (
         <header>
-            <h2>
+            <h3>
                 <a href="/">
                     Emily Crook
                 </a>
-            </h2>
+            </h3>
             <Nav></Nav>
         </header>
     )

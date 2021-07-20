@@ -58,7 +58,23 @@ header {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
+  position: fixed;
   background: var(--primary);
+  width: 100%;
+  padding: 10px, 0px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: var(--primary);
+  text-align: center;
 }
 
 nav ul {
@@ -91,4 +107,17 @@ img {
   width: auto;
   height: 300px;
   margin-bottom: 50px;
+}
+
+.about-p {
+  width: 50px;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profile-pic {
+  height: 300px
 }
